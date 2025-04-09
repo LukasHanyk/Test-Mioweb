@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.recap {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.recap h2 {
+    text-align: center;
+    color: #333;
+}
+
+.recap p {
+    margin: 10px 0;
+}
+
+.recap strong {
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+
+h1 {
+    font-size: 35px
+}
+
+.form-container {
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+input, select {
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    padding: 15px;
+}
+}
